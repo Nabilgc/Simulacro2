@@ -8,5 +8,7 @@ namespace MVCParcial.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<MVCParcial.Models.Product> Products { get; set; }
     }
 }
